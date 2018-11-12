@@ -1,7 +1,17 @@
 ## MitoFisher Instructions
 
+MitoFisher is a pipeline for extracting mitochondrial or chloroplast genomes from NGS data, this can be whole genome sequencing or any other kind of sequencing where significant amounts of plastid genomes are present. For example, chloroplasts and mitochondria are often found as "bycatch" in bait-capture experiments thanks to their abundance.
 
 
+##Install docker
+
+On windows:
+
+https://docs.docker.com/docker-for-windows/install/
+
+On Ubuntu:
+
+sudo apt install docker.io
 
 
 
