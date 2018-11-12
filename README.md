@@ -15,7 +15,7 @@ sudo apt install docker.io
 
 On Mac:
 
-
+https://docs.docker.com/docker-for-mac/install/
 
 
 ## Build the docker image
@@ -28,12 +28,22 @@ docker login
 Then run 
 
 ```markdown
-docker build -t mito_pipeline .
+`docker build -t mito_pipeline .`
 ```
+
+## Set up the Folders
+
 
 ## Run the pipeline
 
-On Windows you may have to share a drive in docker settings.
+# On Windows 
+
+You may have to share a drive in docker settings (right click docker logo, click settings and then Shared Drives.)
+
+Then simply run:
+```markdown
+docker run --rm -it -v ${PWD}:/work mito_pipeline snakemake --snakefile mito_pipeline.snakefile --cores 8
+```
 
 
 
