@@ -32,7 +32,7 @@ Then run
 ```
 
 ## Set up the Folders
-
+```markdown
 ├── mito_pipeline.snakefile
 |
 ├── raw
@@ -44,8 +44,7 @@ Then run
 ├── ref
 | |
 │ └── example.fasta
-
-
+```
 ## Run the pipeline
 
 # On Windows 
