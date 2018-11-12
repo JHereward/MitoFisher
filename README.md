@@ -34,15 +34,10 @@ Then run
 ## Set up the Folders
 
 ├── mito_pipeline.snakefile
-
 ├── raw
-
 │ ├── 1_1.fq.gz
-
 │ └── 1_2.fq.gz
-
 ├── ref
-
 │ └── example.fasta
 
 
