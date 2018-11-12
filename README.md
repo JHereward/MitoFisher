@@ -13,11 +13,35 @@ On Ubuntu:
 
 sudo apt install docker.io
 
+On Mac:
 
 
-You can use the [editor on GitHub](https://github.com/JHereward/MitoFisher/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+## Build the docker image
+
+You may have to login first with:
+```markdown
+docker login
+```
+
+Then run 
+
+```markdown
+docker build -t mito_pipeline .
+```
+
+## Run the pipeline
+
+On Windows you may have to share a drive in docker settings.
+
+
+
+
+
+
+
+
 
 ### Markdown
 
