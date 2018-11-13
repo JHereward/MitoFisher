@@ -44,7 +44,7 @@ Then run
 ```
 ## Run the pipeline
 
-# On Windows 
+### On Windows 
 
 You may have to share a drive in docker settings (right click docker logo, click settings and then Shared Drives.)
 
