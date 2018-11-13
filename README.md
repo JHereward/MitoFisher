@@ -42,10 +42,10 @@ Then run
 | |
 │ └── example.fasta
 ```
-```markdown
+
 ![Folder Layout](/images/folder.JPG)
 Format: ![Alt Text](url)
-```
+
 ## Run the pipeline
 
 ### On Windows 
