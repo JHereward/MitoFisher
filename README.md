@@ -58,5 +58,13 @@ docker run --rm -it -v ${PWD}:/work mito_pipeline snakemake --snakefile mito_pip
 ```
 changing the number of cores to the number of cpu's set in docker settings.
 
+### On Linux
+
+sudo may be required
+
+```markdown
+docker run --rm -it -v `pwd`:/work mito_pipeline snakemake --snakefile mito_pipeline.snakefile --cores 8
+```
+
 
 
