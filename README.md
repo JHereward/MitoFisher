@@ -66,5 +66,13 @@ sudo may be required
 docker run --rm -it -v `pwd`:/work mito_pipeline snakemake --snakefile mito_pipeline.snakefile --cores 8
 ```
 
+# Results
 
+Results will be in the results directory:
 
+```markdown
+* individual FASTA file for each input paired-end read set
+* multi FASTA file comprising all individual output sequences
+* N-proportion plot
+* individual coverage plots
+```
