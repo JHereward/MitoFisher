@@ -51,11 +51,15 @@ Then run
 
 You may have to share a drive in docker settings (right click docker logo, click settings and then Shared Drives.)
 
+Make sure that you've allocated as much resources as possible, right click docker logo, settings, advanced, give it one less cpu than the max and as much memory as you can spare.
+
+Open Windows Powershell, and change to the directory set up in the previous step
+
 Then run:
 ```markdown
 docker run --rm -it -v ${PWD}:/work mito_pipeline snakemake --snakefile mito_pipeline.snakefile --cores 8
 ```
-
+changing the number of cores to the number of cpu's set in docker settings.
 
 
 
