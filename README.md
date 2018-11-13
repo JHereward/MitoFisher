@@ -44,7 +44,7 @@ Then run
 ```
 
 ![Folder Layout](/images/folder.JPG)
-Format: ![Alt Text](url)
+
 
 ## Run the pipeline
 
