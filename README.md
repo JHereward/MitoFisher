@@ -46,13 +46,13 @@ Then run
 ![Folder Layout](/images/folder.JPG)
 
 ```markdown
-1. FASTQ files must be in the raw directory. No need for adapter trimming as carried out by the pipeline
-1. FASTQ files must be compressed with the .fq.gz extension
-1. FASTQ files must be paired-end and terminate with _1.fq.gz or _2.fq.gz
-1. The reference file must be in FASTA format
-1. The reference file must have the .fasta extension
-1. The reference file must be in the ref directory
-1. The mito_pipeline.snakefile must be in the project root directory
+* FASTQ files must be in the raw directory. No need for adapter trimming as carried out by the pipeline
+* FASTQ files must be compressed with the .fq.gz extension
+* FASTQ files must be paired-end and terminate with \_1.fq.gz or \_2.fq.gz
+* The reference file must be in FASTA format
+* The reference file must have the .fasta extension
+* The reference file must be in the ref directory
+* The mito_pipeline.snakefile must be in the project root directory
 ```
 
 ## Run the pipeline
